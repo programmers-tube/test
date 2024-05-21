@@ -123,7 +123,7 @@
                             </p>
                           </div>
                           <div class="consultation-form__form" data-aos="zoom-in" style="width: 100%;">
-                            <form action="Meta-Insyt-.pdf" method="POST" data-bss-recipient="4ecb6550064ad1beedd56df0a6b53b47" data-bss-subject="PDF Download Leads">
+                            <form action="Meta-Insyt-.pdf" onsubmit="handleFormSubmit(event)" method="POST" data-bss-recipient="4ecb6550064ad1beedd56df0a6b53b47" data-bss-subject="PDF Download Leads">
                               <div class="box-fileds">
                                 <div class="box-filed">
                                   <input name="First name" type="text" placeholder="First name * " required />
@@ -473,5 +473,29 @@ document.querySelectorAll('img')
     });
     });
         </script>
+<script>
+          function handleFormSubmit(event) {
+              event.preventDefault();  // Prevent the default form submission
+              
+              // Here you can handle form data if needed
+              // const recipient = event.target.elements['data-bss-recipient'].value;
+              // const subject = event.target.elements['data-bss-subject'].value;
+  
+              // Trigger the PDF download
+              setTimeout(() => {
+                            downloadPDF('Meta_Insyt.pdf');
+                        }, 10000);
+          }
+  
+          function downloadPDF(fileUrl) {
+              const a = document.createElement('a');
+              a.href = fileUrl;
+              a.download = fileUrl.split('/').pop();
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+          }
+      </script>
+
     </body>
 </html>
