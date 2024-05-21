@@ -1,0 +1,77 @@
+.top-50{
+    top: 50px !important;
+}
+
+.mega-menu{
+    min-height: 200px;
+    height: max-content;
+    width:100%;
+    position:fixed;
+    top: 80px;
+    left: 0;
+    width: 100vw;
+    padding-top: 35px;
+    visibility: hidden;
+    opacity: 0;
+    padding-bottom: 20px;
+
+}
+
+.main-menu li:hover .mega-menu, .mega-menu:hover{
+   visibility: visible;
+   opacity: 1;
+}
+
+
+.mega-menu-box{
+    height: 100%;
+    max-width: 1200px;
+    background: #fff;
+    box-shadow: 0px 0.2rem 0.4rem rgb(0 0 0 / 10%), 0px 0.4rem 0.6rem rgb(0 0 0 / 10%);
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+.mega-menu-box ul li{
+    margin: 20px 30px;
+}
+
+.mega-menu-box ul li:hover{
+    color: #FB5472;
+    font-size: bold !important;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:760px) {
+    .main-menu li{
+    
+    }
+    .mega-menu{
+       
+        display:block;
+        background: brown;
+        padding-top: 5px;
+        padding: 0px;
+        margin: 0px;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .mega-menu-box{
+        width: 100%;
+        box-shadow: none;
+        padding: 0px;
+        margin: 0px;
+        width: 240px;
+        text-align: left;
+        margin-left: auto;
+    }
+
+    .hide{
+        display: none;
+    }
+}

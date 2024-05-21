@@ -1,0 +1,17 @@
+# DISCLAIMER
+
+```Disclaimer:```
+
+I, ```Rahul Sinha```, want to make it clear that I am not responsible for any content, services, transactions, actions, or consequences related to the website named Meta Insyt. As a freelancer, my role was limited to the development of the website, and I hold no responsibility for its operation, maintenance, or any activities conducted on it.
+
+I hereby disclaim any liability for damages, losses, disputes, fraudulent activities, legal issues, security breaches, privacy concerns, or any other adverse outcomes resulting from the use of the Meta Insyt website. Users engage with the website and its services at their own risk and discretion.
+
+Furthermore, I am not responsible for the accuracy, reliability, legality, or completeness of any information or content provided on the Meta Insyt website. Users are advised to independently verify the information and exercise caution before relying on it.
+
+Users of Meta Insyt are solely responsible for their actions, interactions, decisions, and any transactions they undertake on the website. It is their responsibility to assess the reliability, suitability, and legality of any services, information, or content available on the website.
+
+In summary, I, Rahul Sinha, as a freelancer involved in the development of the Meta Insyt website, hold no responsibility for any content, services, transactions, actions, or consequences resulting from the use of the website. Users assume all risks and responsibilities associated with their use of Meta Insyt.
+ 
+DATE : 1st JUNE 2023
+TIME : 14:58
+RAHUL SINHA
